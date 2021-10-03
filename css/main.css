@@ -96,37 +96,41 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #646464;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
   color: #fff;
 }
 
+header {
+    font-family: 'Yeseva One', cursive;
+    font-size: 3em;
+}
+
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  height: 180px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
   height: 250px;
   width: 100%;
+  font-size: 1.5em;
 }
 
 header,
 footer,
 main {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -139,15 +143,41 @@ main {
 }
 
 .flex-items {
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#div-1,
+#div-2 {
+    border-right: #fff solid 1px;
+}
+
+.bottom-border {
+    border-bottom: solid 1px #fff;
+    margin-bottom: 30px;
+}
+
+.top-border {
+    border-top: solid 1px #fff;
+    margin-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    float: left;
+    display: block;
+    padding-right: 20px;
 }
 
 /* ==========================================================================
